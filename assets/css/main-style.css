@@ -18032,9 +18032,8 @@ input[type=number] {
     font-size: 14px;
   }
 }
-
 .hero-padding {
-  padding: 87px 0 110px 0;
+  padding: 12px 0 110px 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-padding {
