@@ -68,34 +68,14 @@
 
                     <div class="row">
                         <div class="col-md-12 position-relative">
-                            <img src="uploads/home/homebanner.png" class="img-fluid" alt="">
+                            <img src="uploads/home/homebanner.png" class="img-fluid" alt="banner">
                             <div>
                                 <div class="d-flex gap-20 flex-wrap position-absolute"
-                                    style="top: 92%; left: 17%; transform: translate(-50%, -50%);">
+                                    style="top: 75%; left: 17%; transform: translate(-50%, -50%);">
                                     <a href="services.php" class="btn-primary-fill hero-btn wow fadeInLeft"
                                         data-wow-delay="0.4s">Know more services</a>
                                     <a href="contact-us.php" class="btn-tertiary-fill hero-btn wow fadeInRight"
                                         data-wow-delay="0.4s">Contact Us</a>
-                                </div>
-                                <div class="hero-count-section flex flex-column gap-60">
-                                    <div class="hero-count wow fadeInUp" data-wow-delay="0.0s">
-                                        <h4 class="title">22+</h4>
-                                        <p class="pera">
-                                            Years Old <br>
-                                        </p>
-                                    </div>
-                                    <div class="hero-count wow fadeInUp" data-wow-delay="0.2s">
-                                        <h4 class="title">50+</h4>
-                                        <p class="pera">
-                                            Teams
-                                        </p>
-                                    </div>
-                                    <div class="hero-count  wow fadeInUp" data-wow-delay="0.3s">
-                                        <h4 class="title">5lakh+</h4>
-                                        <p class="pera">
-                                            Happy Patients <br>
-                                        </p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
