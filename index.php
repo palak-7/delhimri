@@ -5,10 +5,22 @@
     <?php include('include/head.php');
   $correntpage = "index";
   ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+<style>
+.helpful-area-three1 {
+    background-image: url('assets/images/gallery/helpfulAreabg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hoverline:hover {
+    text-decoration: underline;
+}
+</style>
 
 <body>
-
+    <?php include('Top.php'); ?>
     <?php include('include/header.php'); ?>
     <?php include('include/navmenu.php');?>
     <main>
@@ -16,78 +28,27 @@
         <section class="hero-area">
             <div class="single-slider hero-padding">
                 <div class="container-fluid">
-                    <!-- <div class="row justify-content-between">
-                        <div class="col-xxl-6 col-xl-6 col-lg-6 my-auto">
-                            <div class="hero-caption-one mb-20">
-
-                                <h1 class="title font-700 wow fadeInUp" data-wow-delay="0.1s">WELCOME TO THE <br><span
-                                        style="color: #145473;">DELHI MRI SCAN</span></h1>
-                                <p class="pera wow fadeInUp" data-wow-delay="0.3s" style="color: black;">Delhi MRI Scan,
-                                    a unit of Sahyog Imaging Company, welcomes you to our advanced diagnostic center
-                                    located at M-2, Hauz Khas,.<br> New Delhi - 110016. We specialize in providing
-                                    cutting-edge MRI, CT scan and Ultrasound etc. services to ensure accurate diagnosis
-                                    and superior patient care.<br>
-                                </p>
-                                <div class="d-flex gap-20 flex-wrap">
-                                    <a href="services.php" class="btn-primary-fill hero-btn wow fadeInLeft"
-                                        data-wow-delay="0.4s">Know more services</a>
-                                    <a href="contact-us.php" class="btn-tertiary-fill hero-btn wow fadeInRight"
-                                        data-wow-delay="0.4s">Contact Us</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-6 col-xl-6 col-lg-6">
-                            <div class="d-flex gap-44">
-                                <div class="hero-image position-relative d-none d-lg-block ">
-                                    <img src="assets/images/hero/hero-img1.png" alt="img"
-                                        class="w-100 tilt-effect wow fadeInUp rounded" data-wow-delay="0.1s">
-                                </div>
-                                <div class="hero-count-section flex flex-column gap-60">
-                                    <div class="hero-count wow fadeInUp" data-wow-delay="0.0s">
-                                        <h4 class="title">22+</h4>
-                                        <p class="pera">
-                                            Years Old <br>
-                                        </p>
-                                    </div>
-                                    <div class="hero-count wow fadeInUp" data-wow-delay="0.2s">
-                                        <h4 class="title">50+</h4>
-                                        <p class="pera">
-                                            Teams
-                                        </p>
-                                    </div>
-                                    <div class="hero-count  wow fadeInUp" data-wow-delay="0.3s">
-                                        <h4 class="title">5lakh+</h4>
-                                        <p class="pera">
-                                            Happy Patients <br>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
 
                     <div class="row">
                         <div class="col-md-12 position-relative">
-                            <img src="uploads/home/homebanner.png" class="img-fluid" alt="banner">
-                            <div>
-                                <div class="d-flex gap-20 flex-wrap position-absolute"
-                                    style="top: 75%; left: 17%; transform: translate(-50%, -50%);">
-                                    <a href="services.php" class="btn-primary-fill hero-btn wow fadeInLeft"
-                                        data-wow-delay="0.4s">Know more services</a>
-                                    <a href="contact-us.php" class="btn-tertiary-fill hero-btn wow fadeInRight"
-                                        data-wow-delay="0.4s">Contact Us</a>
-                                </div>
+                            <img src="uploads/home/banner.png" class="img-fluid" alt="banner">
+                            <div class="d-flex gap-20 flex-wrap position-absolute"
+                                style="top: 75%; left: 17%; transform: translate(-50%, -50%);">
+
+                                <a href="services.php" class="btn-primary-fill hero-btn wow fadeInLeft"
+                                    data-wow-delay="0.4s">Know more services</a>
+                                <a href="contact-us.php" class="btn-tertiary-fill hero-btn wow fadeInRight"
+                                    data-wow-delay="0.4s">Contact Us</a>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
         <!-- End-of Hero-->
 
         <!-- Helpful Area Start -->
-        <section class="helpful-area-three section-padding bg-info">
+        <section class="helpful-area-three1 helpful-area-three section-padding">
             <div class="container">
                 <div class="row g-24">
                     <!-- DG Shipping Approved Medical Clinic Card -->
@@ -126,61 +87,15 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Comprehensive Abdominal Imaging Card -->
-                    <!--<div class="col-xl-4 col-md-6 col-lg-6 d-flex">-->
-                    <!--  <div class="helpful-card wow fadeInUp" data-wow-delay="0.20s">-->
-                    <!--    <div class="helpful-card-icon">-->
-                    <!--      <i class="ri-body-scan-line"></i>-->
-                    <!--    </div>-->
-                    <!--    <div class="helpful-card-caption">-->
-                    <!--      <h4 class="caption-title">Comprehensive Abdominal Imaging</h4>-->
-                    <!--      <p class="caption-para">Advanced abdominal imaging with HASTE sequences for MRCP & MR Urography.</p>-->
-                    <!--      <a href="services.php" class="imp-link">Read More <i class="ri-arrow-right-up-line"></i></a>-->
-                    <!--    </div>-->
-                    <!--    <div class="number-watermark">-->
-                    <!--      <h4 class="number">03</h4>-->
-                    <!--    </div>-->
-                    <!--  </div>-->
-                    <!--</div>-->
-                    <!-- Complete Radiological Services Card -->
-                    <!--<div class="col-xl-3 col-md-6 col-lg-6 d-flex">-->
-                    <!--  <div class="helpful-card wow fadeInUp" data-wow-delay="0.30s">-->
-                    <!--    <div class="helpful-card-icon">-->
-                    <!--      <i class="ri-hospital-line"></i>-->
-                    <!--    </div>-->
-                    <!--    <div class="helpful-card-caption">-->
-                    <!--      <h4 class="caption-title">Complete Radiological Services</h4>-->
-                    <!--      <p class="caption-para">Sonography, Color Doppler, Digital X-Ray, and Dexa Scan available for a full range of radiological investigations.</p>-->
-                    <!--      <a href="services.php" class="imp-link">Read More <i class="ri-arrow-right-up-line"></i></a>-->
-                    <!--    </div>-->
-                    <!--    <div class="number-watermark">-->
-                    <!--      <h4 class="number">04</h4>-->
-                    <!--    </div>-->
-                    <!--  </div>-->
-                    <!--</div>-->
-                    <!-- Complete DG Approved -->
-                    <!--<div class="col-xl-3 col-md-6 col-lg-6 d-flex">-->
-                    <!--  <div class="helpful-card wow fadeInUp" data-wow-delay="0.30s">-->
-                    <!--    <div class="helpful-card-icon">-->
-                    <!--      <i class="ri-hospital-line"></i>-->
-                    <!--    </div>-->
-                    <!--    <div class="helpful-card-caption">-->
-                    <!--      <h4 class="caption-title">Complete Radiological Services</h4>-->
-                    <!--      <p class="caption-para">Sonography, Color Doppler, Digital X-Ray, and Dexa Scan available for a full range of radiological investigations.</p>-->
-                    <!--      <a href="services.php" class="imp-link">Read More <i class="ri-arrow-right-up-line"></i></a>-->
-                    <!--    </div>-->
-                    <!--    <div class="number-watermark">-->
-                    <!--      <h4 class="number">04</h4>-->
-                    <!--    </div>-->
-                    <!--  </div>-->
-                    <!--</div>-->
+
                 </div>
             </div>
         </section>
         <!-- End of Helpful Area -->
 
+
         <!-- helpful area S t a r t-->
-        <section class="helpful-area mt-3" id="specialty">
+        <section class="helpful-area p-5" id="specialty">
             <div class="container">
                 <div class="row gy-24">
                     <div class="col-xl-3 col-md-6 col-lg-6">
@@ -232,8 +147,35 @@
         </section>
         <!-- End-of helpful-->
 
+        <div class="container-fluid hero-padding">
+            <div class="row position-relative">
+                <div class="col-12">
+                    <img src="uploads/home/resizeImg.jpg" class="img-fluid" alt="banner">
+                </div>
+
+                <div
+                    class="row text-center stats-container position-absolute top-50 start-50 translate-middle gap-5 d-flex flex-wrap justify-content-evenly">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 stat mb-4">
+                        <i class="fa-solid fa-chart-line fa-2x"></i>
+                        <h1>22+</h1>
+                        <p>Over 22 years of experience and expertise in our field</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 stat mb-4">
+                        <i class="fa-solid fa-user fa-2x"></i>
+                        <h1>50+</h1>
+                        <p>Teams working together to achieve outstanding results</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 stat mb-4">
+                        <i class="fa-solid fa-face-smile fa-2x"></i>
+                        <h1>5 Lakh+</h1>
+                        <p>Satisfied patients benefit from our dedicated care and service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- About us Area S t a r t -->
-        <section class="about-area mt-100" style="margin-top: 50px;" id="aboutcompany">
+        <section class="about-area mt-100 pt-5" style="margin-top: 50px;" id="aboutcompany">
             <div class="container">
                 <div class="row g-24 justify-content-between">
                     <div class="col-xl-6 col-lg-6">
@@ -281,16 +223,8 @@
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6">
-                        <div class="position-relative">
-                            <!-- <div class="play-button">
-                <a id="play-video" class="video-play-button" href="javascript:void(0)">
-                  <span></span>
-                </a>
-                <div id="video-overlay" class="video-overlay">
-                  <a class="video-overlay-close">&times;</a>
-                </div> -->
-                        </div>
-                        <img class="w-100 rounded" src="assets/images/gallery/about-2.png" alt="image">
+
+                        <img class="w-75 rounded" src="assets/images/gallery/aboutus1.png" alt="image">
                     </div>
                 </div>
             </div>
@@ -314,68 +248,23 @@
                     <div class="col-xxl-7 col-xl-8 col-lg-8 p-0 urgent-area-slide xs-p-12">
                         <!-- Single Slider-->
                         <div class="image-container position-relative h-100">
-                            <img class="w-100 h-100" src="assets/images/gallery/Immediate2.png" alt="img">
+                            <img class="w-100 h-100" src="assets/images/gallery/img1.3.png" alt="img">
                             <div class="image-overlay-text rounded" style="background-color: #000000ad !important; ">
-                                <!--<div class="flex gap-20 mb-10">-->
-                                <!--  <div class="edu flex gap-10">-->
-                                <!--    <i class="ri-focus-3-line"></i>-->
-                                <!--    <p class="pera">Imaging</p>-->
-                                <!--  </div>-->
-                                <!--  <div class="map flex gap-10">-->
-                                <!--    <i class="ri-map-pin-line"></i>-->
-                                <!--    <p class="pera">Hauz Khas, Delhi</p>-->
-                                <!--  </div>-->
-                                <!--</div>-->
-                                <!--<div class="overlay-title">-->
-                                <!--  <h4 class="title max-w-567">-->
-                                <!--    Advanced Imaging Technology-->
-                                <!--    for Accurate Diagnoses-->
-                                <!--  </h4>-->
-                                <!--</div>-->
+
                             </div>
                         </div>
                         <!-- Single Slider-->
                         <div class="image-container position-relative h-100">
-                            <img class="w-100 h-100" src="assets/images/gallery/Immediate1.png" alt="img">
+                            <img class="w-100 h-100" src="assets/images/gallery/img1.1 (1).png" alt="img">
                             <div class="image-overlay-text rounded" style="background-color: #000000ad !important; ">
-                                <!--<div class="flex gap-20 mb-16">-->
-                                <!--  <div class="edu flex gap-10">-->
-                                <!--    <i class="ri-heart-pulse-line"></i>-->
-                                <!--    <p class="pera">Health</p>-->
-                                <!--  </div>-->
-                                <!--  <div class="map flex gap-10">-->
-                                <!--    <i class="ri-map-pin-line"></i>-->
-                                <!--    <p class="pera">Hauz Khas, Delhi</p>-->
-                                <!--  </div>-->
-                                <!--</div>-->
-                                <!--<div class="overlay-title">-->
-                                <!--  <h4 class="title max-w-567">-->
-                                <!--    Early Stroke Detection-->
-                                <!--    with Diffusion Imaging-->
-                                <!--  </h4>-->
-                                <!--</div>-->
+
                             </div>
                         </div>
                         <!-- Single Slider -->
                         <div class="image-container position-relative h-100">
-                            <img class="w-100 h-100" src="assets/images/gallery/Immediate3.png" alt="img">
+                            <img class="w-100 h-100" src="assets/images/gallery/img1.2.png" alt="img">
                             <div class="image-overlay-text rounded" style="background-color: #000000ad !important; ">
-                                <!--<div class="flex gap-20 mb-16">-->
-                                <!--  <div class="edu flex gap-10">-->
-                                <!--    <i class="ri-body-scan-line"></i>-->
-                                <!--    <p class="pera">Diagnostics</p>-->
-                                <!--  </div>-->
-                                <!--  <div class="map flex gap-10">-->
-                                <!--    <i class="ri-map-pin-line"></i>-->
-                                <!--    <p class="pera">Hauz Khas, Delhi</p>-->
-                                <!--  </div>-->
-                                <!--</div>-->
-                                <!--<div class="overlay-title">-->
-                                <!--  <h4 class="title max-w-567">-->
-                                <!--    Comprehensive Abdominal-->
-                                <!--    Imaging Services-->
-                                <!--  </h4>-->
-                                <!--</div>-->
+
                             </div>
                         </div>
                     </div>
@@ -383,10 +272,7 @@
                     <div class="col-xxl-3 col-xl-4 col-lg-4 p-0 xs-p-12">
                         <div class="image-right-card">
                             <div class="tab-section tab-section-one" id="tab-section-one">
-                                <!--<div class="counting-day flex gap-10 mb-10">-->
-                                <!--  <i class="ri-time-line"></i>-->
-                                <!--  <p class="pera">24/7 Availability</p>-->
-                                <!--</div>-->
+
                                 <div>
                                     <h4 class="title">Emergency Diagnostic Services</h4>
                                 </div>
@@ -395,8 +281,8 @@
                                         with advanced technology and skilled professionals.</p>
                                 </div>
                                 <div class="progress custom-progress mx-2">
-                                    <div class="progress-bar" style="width: 100%">
-                                        <p class="pera">100%</p>
+                                    <div class="" style="width: 100%">
+                                        <!-- <p class="pera">100%</p> -->
                                     </div>
                                 </div>
                                 <div class="flex justify-content-between mt-8">
@@ -410,31 +296,36 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="tab-section tab-section-two" id="tab-section-two">
-                                <!--<div class="counting-day flex gap-10 mb-10">-->
-                                <!--  <i class="ri-time-line"></i>-->
-                                <!--  <p class="pera">24/7 Availability</p>-->
-                                <!--</div>-->
+
                                 <div>
-                                    <h4 class="title">Emergency Diagnostic Services</h4>
+                                    <h4 class="title">Contact Us</h4>
                                 </div>
                                 <div>
                                     <p class="subtitle">Our facility is always ready to handle urgent diagnostic needs
                                         with advanced technology and skilled professionals.</p>
                                 </div>
-                                <div class="progress custom-progress">
-                                    <div class="progress-bar" style="width: 100%">
-                                        <p class="pera">100%</p>
+                                <div class="d-flex justify-content-evenly">
+                                    <div>
+                                        <div>
+                                            <p class="text-white fw-bold fs-5">Phone</p>
+                                            <a href="tel:+911146183333" class="text-white hoverline">(+91) 114618
+                                                3333</a> <br>
+                                            <a href="tel:+919667554447" class="text-white hoverline">(+91) 966755
+                                                4447</a>
+                                        </div>
+
+                                        <div>
+                                            <p class="text-white fw-bold fs-5">Email</p>
+                                            <a href="mailto:delhimriscan@gmail.com"
+                                                class="text-white hoverline">delhimriscan@gmail.com</a> <br>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="flex justify-content-between mt-8">
-                                    <div class="charges">
-                                        <h4 class="title">Goals</h4>
-                                        <p class="pera">Immediate Diagnosis</p>
-                                    </div>
-                                    <div class="charges">
-                                        <h4 class="title">Success Rate</h4>
-                                        <p class="pera">High</p>
+                                    <div>
+                                        <p class="text-white fw-bold fs-5">Location</p>
+                                        <a href="https://maps.app.goo.gl/1efNLhWMh3euuEDk6" class="text-white hoverline"
+                                            target="_blank">M-2, Hauz Khas, Delhi 110016</a> <br>
                                     </div>
                                 </div>
                             </div>
@@ -548,8 +439,6 @@
         </section>
         <!-- End-of Question Area -->
 
-
-
         <!-- Our event S t a r t-->
         <section class="our-event bottom-padding">
             <div class="container">
@@ -562,24 +451,7 @@
                         </div>
                     </div>
                 </div>
-                <!--<div class="row gy-24 ourservce-slider">-->
-                <!--    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper mx-2">-->
-                <!--      <div class="single-event h-calc wow fadeInUp d-flex flex-column" data-wow-delay="0.0s">-->
-                <!--        <div class="event-img position-relative">-->
-                <!--          <a href="event-details.php"> <img src="uploads/services/<?php // echo $row['image']; ?>" class="img-fluid w-100" alt="img"> </a>-->
-                <!--        </div>-->
-                <!--        <div class="event-info">-->
-                <!--          <div class="d-flex justify-content-between align-items-center gap-6">-->
-                <!--            <div class="event-info-title">-->
-                <!--              <h4><a class="title text-capitalize" href="event-details.php"><?php //echo $row['title']; ?></a></h4>-->
-                <!--              <p class="subtitle text-black"><?php// echo substr($row['short_description'], 0, 100), "..."; ?></p>-->
-                <!--            </div>-->
-                <!--            <a href="event-details.php" class="btn-arrow"><i class="ri-arrow-right-line"></i></a>-->
-                <!--          </div>-->
-                <!--        </div>-->
-                <!--      </div>-->
-                <!--    </div>-->
-                <!--</div>-->
+
                 <div class="d-flex gap-20 flex-wrap  mx-auto mt-0">
                     <!-- Helpful Area Start -->
                     <section class="helpful-area-three mt-50">
@@ -705,16 +577,16 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle mb-50">
                             <span class="sub-tittle text-capitalize font-600">Testimonials</span>
-                            <h2 class="title font-700">what They’re Talking About Us</h2>
+                            <h2 class="title font-700">What They’re Talking About Us</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row g-24 testimonial-slider-two">
                     <?php
-          $sql = "select * from testimonial ";
-          $res = mysqli_query($con, $sql);
-          while ($row = mysqli_fetch_assoc($res)) {
-          ?>
+                    $sql = "select * from testimonial ";
+                    $res = mysqli_query($con, $sql);
+                    while ($row = mysqli_fetch_assoc($res)) {
+                    ?>
                     <div class="col-xl-4">
                         <div class="single-testimonial position-relative">
                             <div class="client-info">
@@ -747,6 +619,7 @@
                     </div>
                     <?php } ?>
                 </div>
+
             </div>
         </section>
         <!-- End-of Testimonial -->
@@ -763,26 +636,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="row gy-24">
+                <div class="row">
                     <?php
-          $sql = "select * from blogs LIMIT 3";
-          $res = mysqli_query($con, $sql);
-          while ($row = mysqli_fetch_assoc($res)) { ?>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
+            $sql = "select * from blogs LIMIT 3";
+            $res = mysqli_query($con, $sql);
+            while ($row = mysqli_fetch_assoc($res)) { ?>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
                         <div class="single-blog h-calc wow fadeInUp" data-wow-delay="0.2s">
                             <div class="blog-img position-relative">
-                                <a href="blog-details.php?blog_url=<?php echo $row['blog_url']; ?>"> <img
-                                        src="uploads/blogs/<?php echo $row['image']; ?>" class="img-fluid w-100"
-                                        alt="img"> </a>
+                                <a href="blog-details.php?blog_url=<?php echo $row['blog_url']; ?>">
+                                    <img src="uploads/blogs/<?php echo $row['image']; ?>" class="img-fluid w-100"
+                                        alt="img">
+                                </a>
                             </div>
                             <div class="blog-info">
                                 <div class="blog-info-title">
                                     <p>
                                         <?php $format = strtotime($row['createdAt']);
-                      echo date('d,MY', $format); ?>
+                                    echo date('d,MY', $format); ?>
                                     </p>
-                                    <h4 class="title text-capitalize"><a
-                                            href="blog-details.php?blog_url=<?php echo $row['blog_url']; ?>"><?php echo $row['title']; ?></a>
+                                    <h4 class="title text-capitalize">
+                                        <a href="blog-details.php?blog_url=<?php echo $row['blog_url']; ?>">
+                                            <?php echo $row['title']; ?>
+                                        </a>
                                     </h4>
                                     <p class="subtitle"><?php echo substr($row['short_description'], 0, 100); ?>...</p>
                                 </div>
@@ -793,6 +669,7 @@
                 </div>
             </div>
         </section>
+
         <!-- End-of Blog -->
     </main>
     <!-- Footer S t a r t -->
