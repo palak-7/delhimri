@@ -17,6 +17,12 @@
 .hoverline:hover {
     text-decoration: underline;
 }
+.abs-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 </style>
 
 <body>
@@ -147,10 +153,35 @@
         </section>
         <!-- End-of helpful-->
 
+        <!-- <div class="container-fluid hero-padding">
+            <div class="row">
+                <div class="col-12">
+                    <img src="uploads/home/resizeImg.jpg" class="img-fluid   d-none d-sm-block" alt="banner">
+                </div>
+                <div class="row text-center stats-container gap-5 d-flex flex-wrap justify-content-evenly">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 stat mb-4">
+                        <i class="fa-solid fa-chart-line fa-2x"></i>
+                        <h1>22+</h1>
+                        <p>Over 22 years of experience and expertise in our field</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 stat mb-4">
+                        <i class="fa-solid fa-user fa-2x"></i>
+                        <h1>50+</h1>
+                        <p>Teams working together to achieve outstanding results</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 stat mb-4">
+                        <i class="fa-solid fa-face-smile fa-2x"></i>
+                        <h1>5 Lakh+</h1>
+                        <p>Satisfied patients benefit from our dedicated care and service</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
         <div class="container-fluid hero-padding">
             <div class="row position-relative">
                 <div class="col-12">
-                    <img src="uploads/home/resizeImg.jpg" class="img-fluid d-none d-sm-none" alt="banner">
+                    <img src="uploads/home/resizeImg.jpg" class="img-fluid d-none d-sm-block" alt="banner">
                 </div>
 
                 <div
@@ -174,16 +205,16 @@
             </div>
         </div>
 
-
-        <!-- About us Area S t a r t -->
-        <section class="about-area mt-100 pt-5" style="margin-top: 50px;" id="aboutcompany">
+        
+        <!-- About us Area Start -->
+        <section class="about-area mt-100 pt-5" id="aboutcompany">
             <div class="container">
                 <div class="row g-24 justify-content-between">
                     <div class="col-xl-6 col-lg-6">
                         <div class="section-tittle mb-50">
                             <span class="sub-tittle text-capitalize font-700">About us</span>
                             <h2 class="title mb-20 font-700">Welcome to Delhi MRI Scan</h2>
-                            <p class="pera"> Discover excellence in diagnostic imaging at Delhi MRI Scan, a premier unit
+                            <p class="pera">Discover excellence in diagnostic imaging at Delhi MRI Scan, a premier unit
                                 of Sahyog Imaging Company. Located in the heart of New Delhi at M-2, Hauz Khas, we are
                                 committed to delivering accurate diagnoses and superior patient care through
                                 state-of-the-art technology and a team of expert radiologists.</p>
@@ -209,7 +240,6 @@
                                         <div class="info-icon">
                                             <i class="ri-user-line"></i>
                                         </div>
-
                                         <div class="info-content">
                                             <h4 class="title">Delhi MRI Scan</h4>
                                             <p class="pera">Equipped with advanced Siemens MRI and CT scan technology.
@@ -223,12 +253,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-6">
-
+                    <div class="col-xl-5 col-lg-6 d-none d-md-block">
                         <img class="w-75 rounded" src="assets/images/gallery/aboutus1.png" alt="image">
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         <!-- End-of About us Area -->
