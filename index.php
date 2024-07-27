@@ -150,7 +150,7 @@
         <div class="container-fluid hero-padding">
             <div class="row position-relative">
                 <div class="col-12">
-                    <img src="uploads/home/resizeImg.jpg" class="img-fluid" alt="banner">
+                    <img src="uploads/home/resizeImg.jpg" class="img-fluid d-none d-sm-none" alt="banner">
                 </div>
 
                 <div
@@ -173,6 +173,7 @@
                 </div>
             </div>
         </div>
+
 
         <!-- About us Area S t a r t -->
         <section class="about-area mt-100 pt-5" style="margin-top: 50px;" id="aboutcompany">
